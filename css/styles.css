@@ -1,0 +1,38 @@
+body{
+	background-color:black;
+}
+
+#display{
+	background-color:#38383a;
+	color:white;
+	text-align:right;
+	font-size:35px;
+	height:80px;
+	width:340px;
+}
+#mainframe{
+	height:500px;
+	width:350px;
+	position: absolute;
+ 	left: 50%;
+ 	margin-left:-175px;
+ 	top: 50%;
+ 	margin-top:-250px;
+ 	border:solid 5px blue;
+	background-color:red;
+}
+
+#func{
+	margin-top:10px;
+	/padding:5px;
+	display:flex;
+	justify-content:space-around;
+}
+button{
+	width:70px;
+	height:70px;
+}
+
+#zero-btn{
+	width:150px;
+}
