@@ -47,10 +47,15 @@ function back() {
 }
 
 function on(){
-	if(document.getElementById("display").value==""){
-		document.getElementById("display").value="0";	
+	if(document.getElementById("display").value==""){   //current state off
+		document.getElementById("display").value="0";
+		$("button").prop('disabled',false);
+		document.getElementById("on-off").innerHTML="OFF";
 	}
 	else{
 		document.getElementById("display").value="";	
+		$("button").prop('disabled',true);
+		$("#on-off").prop('disabled',false);
+		document.getElementById("on-off").innerHTML="ON";
 	}
 }

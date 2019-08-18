@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-	<!--<link rel="icon" href="img/tab2.jpg" sizes="16x16" type="image/png">-->
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,35 +15,35 @@
 </head>
 <body>
     <div class="container" id="mainframe">
-        <div class="row"><input type="text" id="display" readonly ></div>
+        <div class="row"><input type="text" id="display"></div>
         <div class="row" id="func">
-            <button type="button" class="btn btn-lg btn-secondary" id="on-off" onclick="on()">ON</button>
-            <button type="button" class="btn btn-lg btn-secondary" onclick="document.getElementById('display').value='0'">C</button>
-            <button type="button" class="btn btn-lg btn-secondary" onclick="back()"><i class="fas fa-backspace"></i></button>
-            <button type="button" class="btn btn-lg btn-secondary" onclick="myFunction(this)">/</button>
+            <button type="button" class="btn btn-lg" id="on-off" onclick="on()">OFF</button>
+            <button type="button" class="btn btn-lg" onclick="document.getElementById('display').value='0'">C</button>
+            <button type="button" class="btn btn-lg" onclick="back()"><i class="fas fa-backspace"></i></button>
+            <button type="button" class="btn btn-lg" onclick="myFunction(this)">/</button>
         </div>
         <div class="row" id="func">
-            <button type="button" class="btn btn-lg btn-secondary" onclick="myFunction(this)">7</button>
-            <button type="button" class="btn btn-lg btn-secondary" onclick="myFunction(this)">8</button>
-            <button type="button" class="btn btn-lg btn-secondary" onclick="myFunction(this)">9</button>
-            <button type="button" class="btn btn-lg btn-secondary" onclick="myFunction(this)">*</button>
+            <button type="button" class="btn btn-lg" onclick="myFunction(this)">7</button>
+            <button type="button" class="btn btn-lg" onclick="myFunction(this)">8</button>
+            <button type="button" class="btn btn-lg" onclick="myFunction(this)">9</button>
+            <button type="button" class="btn btn-lg" onclick="myFunction(this)">*</button>
         </div>
         <div class="row" id="func">
-            <button type="button" class="btn btn-lg btn-secondary" onclick="myFunction(this)">4</button>
-            <button type="button" class="btn btn-lg btn-secondary" onclick="myFunction(this)">5</button>
-            <button type="button" class="btn btn-lg btn-secondary" onclick="myFunction(this)">6</button>
-            <button type="button" class="btn btn-lg btn-secondary" onclick="myFunction(this)">-</button>
+            <button type="button" class="btn btn-lg" onclick="myFunction(this)">4</button>
+            <button type="button" class="btn btn-lg" onclick="myFunction(this)">5</button>
+            <button type="button" class="btn btn-lg" onclick="myFunction(this)">6</button>
+            <button type="button" class="btn btn-lg" onclick="myFunction(this)">-</button>
         </div>
         <div class="row" id="func">
-            <button type="button" class="btn btn-lg btn-secondary" onclick="myFunction(this)">1</button>
-            <button type="button" class="btn btn-lg btn-secondary" onclick="myFunction(this)">2</button>
-            <button type="button" class="btn btn-lg btn-secondary" onclick="myFunction(this)">3</button>
-            <button type="button" class="btn btn-lg btn-secondary" onclick="myFunction(this)">+</button>
+            <button type="button" class="btn btn-lg" onclick="myFunction(this)">1</button>
+            <button type="button" class="btn btn-lg" onclick="myFunction(this)">2</button>
+            <button type="button" class="btn btn-lg" onclick="myFunction(this)">3</button>
+            <button type="button" class="btn btn-lg" onclick="myFunction(this)">+</button>
         </div>
         <div class="row" id="func">
-            <button type="button" class="btn btn-lg btn-secondary" id="zero-btn" onclick="myFunction(this)">0</button>
-            <button type="button" class="btn btn-lg btn-secondary" onclick="myFunction(this)">.</button>
-            <button type="button" class="btn btn-lg btn-secondary" onclick="calculate()">=</button>
+            <button type="button" class="btn btn-lg" id="zero-btn" onclick="myFunction(this)">0</button>
+            <button type="button" class="btn btn-lg" onclick="myFunction(this)">.</button>
+            <button type="button" class="btn btn-lg" id="equal" onclick="calculate()">=</button>
         </div>
     </div>
     <script src="js/script.js"></script>

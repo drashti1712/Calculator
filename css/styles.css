@@ -3,10 +3,11 @@ body{
 }
 
 #display{
-	background-color:#38383a;
+	background-color:#85d9c9;
 	color:white;
 	text-align:right;
 	font-size:35px;
+	border-bottom:solid 5px grey;
 	height:80px;
 	width:340px;
 }
@@ -18,19 +19,27 @@ body{
  	margin-left:-175px;
  	top: 50%;
  	margin-top:-250px;
- 	border:solid 5px blue;
-	background-color:red;
+ 	border:solid 5px grey;
+	background-color:#020829; 
 }
 
 #func{
 	margin-top:10px;
-	/padding:5px;
 	display:flex;
 	justify-content:space-around;
 }
 button{
 	width:70px;
 	height:70px;
+	background-color:#020829;
+	color:cyan;
+}
+
+#on-off{
+	color:red;
+}
+#equal{
+	color:white;
 }
 
 #zero-btn{
